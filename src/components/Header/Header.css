@@ -1,0 +1,30 @@
+.header_wpaper {
+  z-index: 100000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  top: 0;
+  position: sticky;
+  width: 100vw;
+  height: 60px;
+  padding: 10px;
+  .logo {
+    background-color: red;
+  }
+  .user {
+    background-color: yellow;
+  }
+  .search {
+    background-color: #fff;
+    box-sizing: border-box;
+    max-height: fit-content;
+    display: flex;
+    .ant-input {
+      border: none;
+    }
+    .ant-btn {
+      border: none;
+    }
+  }
+}

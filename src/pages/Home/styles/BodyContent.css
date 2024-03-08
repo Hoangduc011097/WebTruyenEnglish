@@ -1,0 +1,19 @@
+.hot_month {
+  .content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+  }
+  .content-item {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: aqua;
+  }
+  .img {
+    border-radius: 5px;
+
+    cursor: pointer;
+    /* height: 200px; */
+  }
+}
